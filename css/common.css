@@ -10,3 +10,10 @@ ul {
 li {
   font-family: "Noto Sans JP", sans-serif;
 }
+
+img[data-type="default"] {
+  height: 200px;
+}
+img[data-type="icon"] {
+  height: 100px;
+}

@@ -7,3 +7,16 @@
   font-size: large;
   font-weight: bold;
 }
+
+.main-area {
+  display: flex;
+}
+
+.left-area {
+  width: 60%;
+}
+
+.right-area {
+  width: 40%;
+  display: grid;
+}
