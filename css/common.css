@@ -1,0 +1,12 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+li {
+  font-family: "Noto Sans JP", sans-serif;
+}
