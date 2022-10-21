@@ -4,6 +4,16 @@ body {
   padding-left: 50px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: auto 50px auto 0;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 ul {
   margin-top: 5px;
 }
