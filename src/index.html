@@ -36,6 +36,9 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
       rel="stylesheet"
     />
+
+    <!-- js -->
+    <script type="module" src="../js/util.js" defer></script>
   </head>
   <body>
     <div class="title-area">
@@ -46,7 +49,7 @@
       <div class="left-area">
         <section class="section-title">～ 基本情報 ～</section>
         <ul>
-          <li>1995年2月8日生まれの27歳（双子）</li>
+          <li id="age"></li>
           <li>東京都世田谷区出身</li>
           <li>
             2019年3月、千葉大学大学院融合理工学府基幹工学専攻電気電子工学コース<br />（旧工学部電気電子工学科）を修了
@@ -90,16 +93,18 @@
           alt="working-photo"
           data-type="default"
         />
-        <div
-          style="display: flex; justify-content: flex-end; margin-right: 100px"
-        >
+        <div>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png"
             alt="react-icon"
             data-type="icon"
           />
           <img
-            src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_flutter_icon_130599.png"
+            src="https://static.djangoproject.com/img/logos/django-logo-negative.png"
+            data-type="icon"
+          />
+          <img
+            src="../assets/images/flutter_icon.png"
             alt="flutter-icon"
             data-type="icon"
           />

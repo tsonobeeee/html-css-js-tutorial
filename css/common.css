@@ -23,11 +23,11 @@ li {
 }
 
 img[data-type="default"] {
-  height: 200px;
+  height: 240px;
 }
 img[data-type="icon"] {
   height: 100px;
 }
 img[data-type="small"] {
-  height: 150px;
+  height: 160px;
 }
