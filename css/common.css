@@ -28,3 +28,6 @@ img[data-type="default"] {
 img[data-type="icon"] {
   height: 100px;
 }
+img[data-type="small"] {
+  height: 150px;
+}
