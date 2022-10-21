@@ -13,9 +13,10 @@ const calcAge = () => {
   let acquiredID = document.getElementById("age");
 
   if (todayMonth >= myBirthMonth && todayDay >= myBirthDay) {
-    acquiredID.innerHTML = `1995年2月8日生まれの${String(age)}歳（双子）`;
+    acquiredID.innerHTML = String(age);
   } else {
-    acquiredID.innerHTML = `1995年2月8日生まれの${String(age - 1)}歳（双子）`;
+    acquiredID.innerHTML = String(age - 1);
   }
 };
+
 calcAge();
