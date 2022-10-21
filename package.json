@@ -1,0 +1,28 @@
+{
+  "name": "html-css-js-tutorial",
+  "version": "1.0.0",
+  "description": "JV 業務にて Web アプリの開発・運用を任されそうなので、**HTML, CSS, JS** あたりをざっくばらんに学習すること",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tsonobeeee@github.com/tsonobeeee/html-css-js-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsonobeeee/html-css-js-tutorial/issues"
+  },
+  "homepage": "https://github.com/tsonobeeee/html-css-js-tutorial#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
